@@ -11,10 +11,12 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Noemiegrau",
   "license": "ISC",
   "dependencies": {
-    "if-env": "^1.0.4"
+    "aws-sdk": "^2.1073.0",
+    "if-env": "^1.0.4",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
