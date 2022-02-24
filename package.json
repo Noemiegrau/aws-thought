@@ -1,7 +1,7 @@
 {
   "name": "aws-thought",
   "version": "1.0.0",
-  "description": "",
+  "description": "## **_Table of contents_** * [Description of the project](#description-of-the-project) * [Technologies used](#technologies-used) * [Usage](#usage) * [Installation](#installation) * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository) * [Link URL of deployed app to Heroku](#link-URL-of-deployed-app-to-Heroku)",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noemiegrau/aws-thought.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Noemiegrau/aws-thought/issues"
+  },
+  "homepage": "https://github.com/Noemiegrau/aws-thought#readme"
 }
